@@ -86,9 +86,10 @@ class DataBase{
             {  print("Такой студент в списке есть")
                     flag = false
                 }
-            if flag {
-                dataBase.addStud(model:Students(name:"Sidor", surname: "Sidorov", age: 17, clas: 1, average_score: 4.0))
-            }
         }
+        if flag {
+            dataBase.addStud(model:Students(name:"Sidor", surname: "Sidorov", age: 17, clas: 1, average_score: 4.0))
+        }
+        
     }
 }
